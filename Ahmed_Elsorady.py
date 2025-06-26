@@ -560,7 +560,7 @@ def main():
     else:  # Local File
         file_path = st.sidebar.text_input(
             "CSV File Path:", 
-            value=r"C:\Users\MANSY\Downloads\cleaned_emissions_data10.1.csv",
+            value=r"final_cleaned_emissions_data.csv",
             help="Enter the path to your CSV file"
         )
     
